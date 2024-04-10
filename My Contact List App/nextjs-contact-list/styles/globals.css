@@ -1,0 +1,111 @@
+body {
+	color: #4a5568;
+	background: #edf2f7;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14px;
+}
+
+.table-responsive {
+	margin: 20px 0;
+}
+
+.table-wrapper {
+	background: #ffffff;
+	padding: 25px 30px;
+	border-radius: 5px;
+	min-width: 950px;
+	box-shadow: 0 2px 2px rgba(0, 0, 0, 0.1);
+}
+
+.table-title {
+	padding-bottom: 10px;
+	background: #2d3748;
+	color: #ffffff;
+	padding: 20px 30px;
+	min-width: 100%;
+	margin: -25px -30px 15px;
+	border-radius: 5px 5px 0 0;
+}
+
+.table-title h2 {
+	margin: 0;
+	font-size: 22px;
+}
+
+.table-title .btn-group {
+	float: right;
+}
+
+.table-title .btn {
+	color: #ffffff;
+	float: right;
+	font-size: 14px;
+	border: none;
+	min-width: 60px;
+	border-radius: 3px;
+	outline: none !important;
+	margin-left: 15px;
+}
+
+.table-title .btn i {
+	font-size: 20px;
+	margin-right: 5px;
+}
+
+table.table tr th,
+table.table tr td {
+	border-color: #e2e8f0;
+	padding: 14px 18px;
+	vertical-align: middle;
+}
+
+table.table-striped tbody tr:nth-of-type(odd) {
+	background-color: #f7fafc;
+}
+
+table.table-striped.table-hover tbody tr:hover {
+	background: #ebf4ff;
+}
+
+table.table td:last-child i {
+	opacity: 0.9;
+	font-size: 20px;
+}
+
+table.table td a {
+	color: #4a5568;
+}
+
+.pagination {
+	float: right;
+	margin: 5px 0;
+}
+
+.pagination li a {
+	font-size: 14px;
+}
+
+.pagination li.active a,
+.pagination li.active a.page-link {
+	background: #3182ce;
+}
+
+.custom-checkbox label:before {
+	background: #ffffff;
+}
+
+.custom-checkbox input[type="checkbox"]:checked+label:before {
+	background: #3182ce;
+}
+
+.modal .modal-dialog {
+	max-width: 450px;
+}
+
+.modal .modal-content {
+	font-size: 15px;
+}
+
+.modal .btn {
+	min-width: 110px;
+}
